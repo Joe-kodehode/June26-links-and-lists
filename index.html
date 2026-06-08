@@ -7,7 +7,7 @@
     <title>Links & Lists</title>
   </head>
   <body>
-    <header>
+    <header id="header">
       <h1>Homepage</h1>
       <nav>
         <!-- Unordered list -->
@@ -22,10 +22,10 @@
     <main>
       <section>
         <h2>Ordered List (numbered items)</h2>
-        <article id="ordered-list">
+        <article>
           <p>Packing List:</p>
 
-          <ol>
+          <ol id="ordered-list">
             <li>Sunscreen</li>
             <li>Swimsuit</li>
             <li>Towel</li>
@@ -34,9 +34,9 @@
         </article>
 
         <h2>Unordered List (bullet points)</h2>
-        <article id="unordered-list">
+        <article>
           <p>Shopping List</p>
-          <ul>
+          <ul id="unordered-list">
             <li id="tomato">Tomatoes</li>
             <li id="steak">Steak</li>
             <li id="cheese">Cheese</li>
@@ -44,23 +44,42 @@
             <li id="milk">Milk</li>
           </ul>
         </article>
+
+        <h2>Descriptive List</h2>
+        <article>
+          <p>Cafe Menu</p>
+          <dl id="description-list">
+            <dt>Coffee</dt>
+            <dd>Fresh beans every day</dd>
+            <dt>Tea</dt>
+            <dd>Pure chinese green tea</dd>
+            <dt>Bagels</dt>
+            <dd>Freshly bakes with cream cheese</dd>
+          </dl>
+        </article>
       </section>
     </main>
 
-    <a href="https://www.flaticon.com/free-icons/tomato" title="tomato icons"
-      >Tomato icons created by Pixel perfect - Flaticon</a
-    >
-    <a href="https://www.flaticon.com/free-icons/meat" title="meat icons"
-      >Meat icons created by VectorPortal - Flaticon</a
-    >
-    <a href="https://www.flaticon.com/free-icons/cheese" title="cheese icons"
-      >Cheese icons created by Freepik - Flaticon</a
-    >
-    <a href="https://www.flaticon.com/free-icons/pasta" title="pasta icons"
-      >Pasta icons created by Freepik - Flaticon</a
-    >
-    <a href="https://www.flaticon.com/free-icons/milk" title="milk icons"
-      >Milk icons created by Freepik - Flaticon</a
-    >
+    <footer>
+      <a href="https://www.flaticon.com/free-icons/tomato" title="tomato icons"
+        >Tomato icons created by Pixel perfect - Flaticon</a
+      >
+      <a href="https://www.flaticon.com/free-icons/meat" title="meat icons"
+        >Meat icons created by VectorPortal - Flaticon</a
+      >
+      <a href="https://www.flaticon.com/free-icons/cheese" title="cheese icons"
+        >Cheese icons created by Freepik - Flaticon</a
+      >
+      <a href="https://www.flaticon.com/free-icons/pasta" title="pasta icons"
+        >Pasta icons created by Freepik - Flaticon</a
+      >
+      <a href="https://www.flaticon.com/free-icons/milk" title="milk icons"
+        >Milk icons created by Freepik - Flaticon</a
+      >
+      <br />
+      <br />
+      <br />
+      <a id="to-top-btn" href="#header">Return to top</a>
+    </footer>
   </body>
 </html>
